@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoaDonSanPham</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/Logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo" style="width: 70px;">
+                <img src="./images/logo1.jpg" alt="" style="width: 200%;height: 100%;">
+                <!-- <a href="index.html"><img src="./images/logo1.jpg" width="10%"></a> -->
+            </div>
+            <div class="headerMenu  hidden-sm hidden-xs" style="bottom: 0px; width: 1007px;">
+                <div class="megaMenu container">
+                    <!-- <div class="bgMega"></div> -->
+                    <ul id="menu-primary-menu" class="no-bullet megaMenu-parent">
+                        <li id="menu-item-392"class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-392">
+                            <a href="index.html" aria-current="page">Trang chủ</a>
+                        </li>
+                        <li id="menu-item-618"class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-618">
+                            <a href="#">Sản Phẩm</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-631"class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-631">
+                                    <a href="Chuonggio.html">Chuông gió</a>
+                                </li>
+                                <li id="menu-item-631"class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-631">
+                                    <a href="products_detal.html">Cốc</a>
+                                </li>
+                                <li id="menu-item-631"class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-631">
+                                    <a href="products_detal.html">Quà lưu niệm</a>
+                                </li>
+                                <li id="menu-item-631"class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-631">
+                                    <a href="products_detal.html">Quả cầu tuyết</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- </li> -->
+                    <li id="menu-item-644"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644">
+                        <a href="#">Quà theo sự kiện</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-648"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-648">
+                                <a href="products_detal.html">Quà giáng sinh</a>
+                            </li>
+                            <li id="menu-item-648"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-648">
+                                 <a href="products_detal.html">Quà sinh nhật</a>
+                             </li>
+                             <li id="menu-item-648"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-648">
+                                 <a href="">Quà Valentine</a>
+                             </li>
+                             <li id="menu-item-648"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-648">
+                                 <a href="">Quà lưu niệm</a>
+                             </li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-655"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-655">
+                        <a href="#">Quà theo đối tượng</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-656"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-656">
+                                <a href="https://shopquatructuyen.com/qua-tang-ban-be-dong-nghiep/">Quà tặng bạn bè đồng nghiệp</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-895"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-895">
+                        <a href="https://shopquatructuyen.com/khuyen-mai/">Khuyến mãi</a>
+                    </li>
+                    <li id="menu-item-665"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-665">
+                        <a href="https://shopquatructuyen.com/tu-van-qua-tang/">Tư vấn quà tặng</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-2399"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2399">
+                                <a href="https://shopquatructuyen.com/tu-van-qua-tang/qua-tang-ban-gai/">Quà tặng bạn gái</a></li>
+                            <li id="menu-item-2400"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2400">
+                                <a href="https://shopquatructuyen.com/tu-van-qua-tang/qua-tang-ban-trai/">Quà tặng bạn trai</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cartTop pull-right desk">
+                <a class="cart-contents" href="HoaDon.html" title="Xem giỏ hàng của bạn" style="font-size: 20px;">
+                    <img src="./images/shopping-cart.png" alt="Shopquatructuyen Image">Giỏ hàng
+                    <span class="num">0</span>
+                </a>
+            </div>
+            <script>
+                let numItemsInCart = 0; // Số lượng sản phẩm trong giỏ hàng, ban đầu là 0
+      
+                // Hàm để thêm sản phẩm vào giỏ hàng
+                function addToCart() {
+                     // Thực hiện hành động thêm sản phẩm vào giỏ hàng ở đây
+                     // Sau khi thêm sản phẩm thành công, cập nhật số lượng sản phẩm trong giỏ hàng
+                     numItemsInCart++;
+                     updateCartDisplay(); // Gọi hàm cập nhật hiển thị giỏ hàng
+                }
+      
+                // Hàm để cập nhật hiển thị số lượng sản phẩm trong giỏ hàng
+                function updateCartDisplay() {
+                     const numElement = document.querySelector('.cart-contents .num');
+                     numElement.textContent = numItemsInCart; // Cập nhật số lượng sản phẩm
+                }
+      
+                // Gọi hàm cập nhật hiển thị giỏ hàng khi trang được tải
+                window.onload = function() {
+                     updateCartDisplay();
+                };
+           </script>
+        </div>   
+   </div>
+
+    <!-- -----------------cart item details------------------- -->
+    <div class="small-container cart-page">
+        <table id="cart-table">
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/cg_phale.jfif">
+                        <div>
+                            <p>Chuông gió pha lê</p>
+                            <small>Price: 150.000</small>
+                            <br>
+                            <a href="#" class="remove-link">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₫150.000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/coc3.jpg">
+                        <div>
+                            <p>Cốc sứ hình thỏ</p>
+                            <small>Price: 149.000 </small>
+                            <br>
+                            <a href="#" class="remove-link">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₫149.000 </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/qct_caungua.jfif">
+                        <div>
+                            <p>Quả cầu tuyết vòng quay ngựa</p>
+                            <small>Price: 199.000</small>
+                            <br>
+                            <a href="#" class="remove-link">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₫199.000</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table >
+                <tr>
+                    <td>Tổng phụ</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Phí vận chuyển</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Tổng</td>
+                    <td>498.000₫</td>
+                </tr>
+            </table>
+            <a href="ThanhToan.html" class="btn" style="font-size: 25px;color: rgb(249, 247, 247); background-color: #eb2525; width: 175px; height: 55px;">Đặt hàng</a>
+        </div>
+    </div>
+
+    <script>
+        var cartTable = document.getElementById('cart-table');
+        var totalTable = document.querySelector('.total-price table');
+
+        //cập nhật tổng giá tiền
+        function updateTotalPrice() {
+            var totalPriceCells = document.querySelectorAll('#cart-table td:last-child');
+            var totalPrice = 0;
+
+            totalPriceCells.forEach(function(cell) {
+                var price = parseInt(cell.innerText.replace('₫', '').replace(/\./g, ''));
+                totalPrice += price;
+            });
+
+            var totalRow = totalTable.rows[2];
+            var totalCell = totalRow.cells[1];
+            totalCell.innerText = totalPrice.toLocaleString('vi-VN') + '₫';
+        }
+
+        //số sản phẩm trong giỏ hàng
+        function updateCartItemCount() {
+            var numItemsInCart = document.querySelectorAll('#cart-table tr').length - 1;
+            var numElement = document.querySelector('.cart-contents .num');
+            numElement.textContent = numItemsInCart;
+        }
+    
+        // remove
+        var removeLinks = document.querySelectorAll('.remove-link');
+    
+        removeLinks.forEach(function (link) {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                var row = link.closest('tr');
+                var priceCell = row.querySelector('td:last-child').innerText.trim();
+
+                row.remove();
+
+                // số tiền sau khi xóa sp
+                updateTotalPrice();
+                updateCartItemCount();
+            });
+        });
+
+        // hàm cập nhật tổng giá
+        window.onload = function () {
+            updateTotalPrice();
+            updateCartItemCount();
+        };
+
+        // Function để cập nhật giá tiền khi số lượng thay đổi
+    function updatePriceOnQuantityChange() {
+        var quantityInputs = document.querySelectorAll('#cart-table input[type="number"]');
+
+        quantityInputs.forEach(function (input) {
+            input.addEventListener('change', function () {
+                var row = input.closest('tr'); // Lấy hàng chứa ô nhập số lượng
+                var priceCell = row.querySelector('td:nth-child(3)'); // Ô chứa giá tiền
+                var pricePerItem = parseInt(row.querySelector('td:nth-child(4)').innerText.replace('₫', '').replace(/\./g, '')); // Giá tiền mỗi sản phẩm
+
+                var quantity = parseInt(input.value); // Lấy giá trị số lượng mới
+
+                var newPrice = pricePerItem * quantity; // Tính giá tiền mới dựa trên số lượng mới
+
+                priceCell.innerText = newPrice.toLocaleString('vi-VN') + '₫'; // Cập nhật giá tiền mới
+                updateTotalPrice(); // Cập nhật tổng giá tiền khi số lượng thay đổi
+            });
+        });
+    }
+
+    // Gọi hàm cập nhật giá tiền khi số lượng sản phẩm thay đổi
+    updatePriceOnQuantityChange();
+
+    // Xác định số lượng sản phẩm đã thay đổi
+var newQuantity = 5; // Đây là số lượng mới
+
+// Cập nhật URL với số lượng mới
+var currentURL = new URL(window.location.href);
+currentURL.searchParams.set('quantity', newQuantity); // Đặt tham số 'quantity' trong URL
+
+// Chuyển hướng sang trang thông báo đặt hàng thành công
+href = "ThanhToan.html" + currentURL.searchParams.toString();
+
+        
+    </script>
+
+
+    <!-- ------------footer----------- -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1" >
+                    <h3>Shopping Now</h3>
+                    <div class="logo">
+                        <img src="./images/logo1.jpg" style="width: 45%;">
+                    </div>
+                </div>
+
+                <div class="footer-col-3" style="margin-left: -370px;">
+
+                    <h3>Thông tin liên hệ</h3>
+                    <ul>
+                        <li>Địa chỉ: Đào xá-Nghĩa Dân-Kim Động-Hưng Yên</li>
+                        <li>Hotline: 0388342155</li>
+                        <li>Email: chi13062003@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Theo dõi Fanpage</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Thực hiện bởi Trần Thị Kim Chi</p>
+        </div>
+    </div>
+        <!-- ------------------- js for toggle menu-------------- -->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+
+        </script>
+
+</body>
+
+</html>

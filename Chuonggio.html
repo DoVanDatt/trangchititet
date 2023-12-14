@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SanPham</title>
+     <link rel="stylesheet" href="style_chuonggio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+          .col-4 {
+               width: 285px; /* Cài đặt chiều rộng của mỗi cột là 25% để chia thành 4 cột ngang */
+               float: left; /* Để các cột hiển thị cạnh nhau */
+               box-sizing: border-box; /* Đảm bảo kích thước cột bao gồm cả padding và border */
+               padding: 0 15px; /* Khoảng cách giữa các cột */
+          }
+          .col-4 img {
+               width: 50%; /* Để hình ảnh điền hết phần nội dung của cột */
+               height: auto; /* Đảm bảo tỷ lệ khung hình được giữ nguyên */
+          }
+     </style>
+    <link rel="shortcut icon" href="./images/Logo.jpg" type="image/x-icon">
+</head>
+<body>
+     <div class="containerT">
+          <div class="navbar">
+              <div class="logo" style="width: 70px;">
+                  <img src="./images/logo1.jpg" alt="" style="width: 200px;">
+                  <!-- <a href="index.html"><img src="./images/logo1.jpg" width="10%"></a> -->
+              </div>
+              <div class="headerMenu  hidden-sm hidden-xs" style="bottom: 0px; width: 1300px;">
+                  <div class="megaMenu container" style="background: rgb(247, 145, 145);">
+                      <!-- <div class="bgMega"></div> -->
+                      <ul id="menu-primary-menu" class="no-bullet megaMenu-parent">
+                          <li id="menu-item-392"class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-392">
+                              <a href="index.html" aria-current="page">Trang chủ</a>
+                          </li>
+                          <li id="menu-item-618"class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-618">
+                              <a href="#">Sản Phẩm</a>
+                              <ul class="sub-menu">
+                                  <li id="menu-item-631"class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-631">
+                                      <a href="Chuonggio.html">Chuông gió</a>
+                                  </li>
+                                  <li id="menu-item-631"class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-631">
+                                      <a href="Coc.html">Cốc</a>
+                                  </li>
+                                  <li id="menu-item-631"class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-631">
+                                      <a href="products_detal.html">Quà lưu niệm</a>
+                                  </li>
+                                  <li id="menu-item-631"class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-631">
+                                      <a href="products_detal.html">Quả cầu tuyết</a>
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+                      <!-- </li> -->
+                      <li id="menu-item-644"
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644">
+                          <a href="#">Quà theo sự kiện</a>
+                          <ul class="sub-menu">
+                              <li id="menu-item-648"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-648">
+                                  <a href="products_detal.html">Quà giáng sinh</a>
+                              </li>
+                              <li id="menu-item-648"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-648">
+                                   <a href="products_detal.html">Quà sinh nhật</a>
+                               </li>
+                               <li id="menu-item-648"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-648">
+                                   <a href="">Quà Valentine</a>
+                               </li>
+                               <li id="menu-item-648"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-648">
+                                   <a href="">Quà lưu niệm</a>
+                               </li>
+                          </ul>
+                      </li>
+                      <li id="menu-item-655"
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-655">
+                          <a href="#">Quà theo đối tượng</a>
+                          <ul class="sub-menu">
+                              <li id="menu-item-656"class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-656">
+                                  <a href="https://shopquatructuyen.com/qua-tang-ban-be-dong-nghiep/">Quà tặng bạn bè đồng nghiệp</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li id="menu-item-895"
+                          class="menu-item menu-item-type-taxonomy menu-item-object-product_tag menu-item-895">
+                          <a href="https://shopquatructuyen.com/khuyen-mai/">Khuyến mãi</a>
+                      </li>
+                      <li id="menu-item-665"
+                          class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-665">
+                          <a href="https://shopquatructuyen.com/tu-van-qua-tang/">Tư vấn quà tặng</a>
+                          <ul class="sub-menu">
+                              <li id="menu-item-2399"
+                                  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2399">
+                                  <a href="https://shopquatructuyen.com/tu-van-qua-tang/qua-tang-ban-gai/">Quà tặng bạn gái</a></li>
+                              <li id="menu-item-2400"
+                                  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2400">
+                                  <a href="https://shopquatructuyen.com/tu-van-qua-tang/qua-tang-ban-trai/">Quà tặng bạn trai</a></li>
+                          </ul>
+                      </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="cartTop pull-right desk">
+                  <a class="cart-contents" href="" title="Xem giỏ hàng của bạn">
+                      <img src="./images/shopping-cart.png" alt="Shopquatructuyen Image">Giỏ hàng
+                      <span class="num">0</span>
+                  </a>
+              </div>
+          </div>   
+     </div>
+     <div class="small-container">
+          <!--------------- Chuông gió ------------------>
+          
+          <!-- <h2 class="title" style="font-size: 50px; text-align: center;">Chuông gió</h2> -->
+          <h1 class="Tieude" style="text-align: center; font-size: 45px;">Chuông gió</h1>
+          <div class="Muc" style="padding-left: 1px; font-size: 30px; padding-right: 2px; margin-bottom: 55px;">
+               <h3>Chuông gió là một sản phẩm khá phổ biến</h3>
+               "Chuông gió, hay còn được gọi là "đèn gió" hay "cầm trống gió," là một loại đồ chơi hoặc vật trang trí phổ biến được làm từ các vật liệu như gỗ, kim loại, thủy tinh, hoặc gốm sứ. 
+               Chúng thường bao gồm một số lượng lớn các ống nhỏ có kích thước và chiều dài khác nhau được treo dọc từ một khung cấu trúc, và khi gió thổi qua, chúng tạo ra âm thanh êm dịu và lắng đọng.
+               Ngoài việc tạo ra âm nhạc tự nhiên, chuông gió còn được sử dụng như một vật trang trí, tạo điểm nhấn cho không gian nội thất hoặc ngoại thất của ngôi nhà. 
+               Hình dạng và thiết kế của chuông gió có thể đa dạng, từ truyền thống đến hiện đại, từ các vật liệu tự nhiên đến kim loại sáng bóng."
+          </div>
+          <div class="row">
+                <div class="col-4">
+                    <a href="products_cg.html"><img src="./images/cg_phale.jfif" style="width: 237.5px; height: 237.5px;"></a>
+                    <a href="products_cg.html">
+                        <h4>Chuông gió pha lê</h4>
+                    </a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₫150.000 </p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/cg_gom.jfif" style="width: 237.5px; height: 237.5px;";">
+                    <h4>Chuông gió gốm sứ</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₫140.000 </p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/cg_mattrang.jfif" style="width: 237.5px; height: 237.5px;">
+                    <h4>Chuông gió mặt trăng</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>₫100.000 </p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/cg_thuytinh.jfif" style="width: 237.5px; height: 237.5px;">
+                    <h4>Chuông gió thủy tinh</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₫150.000 </p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/cg_phalemattrang.jfif" style="width: 237.5px; height: 237.5px;">
+                    <h4>Chuông gió pha lê mặt trăng</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>₫143.400 </p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/cg_phicong.jfif" style="width: 237.5px; height: 237.5px;">
+                    <h4>Chuông gió phi công, cô gái</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₫126.650 </p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/cg_cunghd.jfif" style="width: 237.5px; height: 237.5px;">
+                    <h4>Chuông gió cung hoàng đạo</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₫165.000 </p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/cg_thuytinhcx.jfif" style="width: 237.5px; height: 237.5px;">
+                    <h4>Chuông gió thủy tinh hình slime</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>₫79.000 </p>
+                </div>
+          </div>
+     </div>
+</body>
+</html>
